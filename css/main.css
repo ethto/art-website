@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+}
+
+header {
+  border-bottom: 3px solid #000;
+}
+
+.header-nav-a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+}
+
+.nav {
+  float: right;
+}
+
+.icon {
+  overflow: hidden;
+}
