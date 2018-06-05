@@ -12,7 +12,7 @@ header {
 }
 
 li {
-  display: inline;
+  display: block;
 }
 
 a {
@@ -22,9 +22,11 @@ a {
 }
 
 .nav {
-  float: right;
+  padding-left: 30px;
 }
 
 .icon {
   overflow: hidden;
+}
+
 }
