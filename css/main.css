@@ -29,4 +29,20 @@ a {
   overflow: hidden;
 }
 
+.name {
+  color: #f94139;
+}
+
+.title {
+  color: #f5af0e;
+}
+
+.blurb {
+  color: #559c7a;
+}
+
+.memes {
+  color: #462e44;
+}
+
 }
