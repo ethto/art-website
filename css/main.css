@@ -36,13 +36,19 @@ a {
 .title {
   color: #f5af0e;
 }
-
-.blurb {
+.email {
   color: #559c7a;
 }
 
-.memes {
+a {
   color: #462e44;
+  border-bottom: 2px solid
 }
+
+.meme-grid {
+  border-bottom: 3px solid #000;
+}
+
+
 
 }
