@@ -1,58 +1,35 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Esther Johnson</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="main.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="favicon.ico" rel="shortcut icon">
-  <link href="e-favicon.png" rel="apple-touch-icon">
-</head>
-<body class="wrapper">
-
-  <header role="banner" class="header">
-    <div class="header-nav grid grid-middle gutter">
-
-      <div class="logo peta unit xs-1-2 s-1-2 m-2-3 l-2-3">
-        <h1 class="push-0 pad-t-0">
-          <i class="icon i-192"><img src="images/watermark.svg" alt="esther johnson logo"></i>
-          <span class="icon-label exa bold"></span>
-        </h1>
-      </div>
-
-      <div class="nav-btn pad-t push-0 giga unit xs-1-2 s-1-2 m-1-3 l-1-3">
-        <nav role="navigation" id="nav" tabindex="0" class="header-nav list-group">
-          <ul class="nav">
-            <li><a class="header-nav-a list-group milli bold" href="index.html">HOME</a></li>
-            <li><a class="header-nav-a list-group milli bold" href=#about>ABOUT</a></li>
-            <li><a class="header-nav-a list-group milli bold" href=#fun>FUN</a></li>
-          </ul>
-        </nav>
-      </div>
-
-    </div>
-  </header>
-
-  <main>
-
+---
+layout: default
+---
     <div class="portfolio-pieces grid pad-t-2">
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <a href="first.html">
-          <img class="img-flex gutter pad-b-2" src="images/placeholder-1by1.svg" alt="">
+        <a href="{{site.baseurl}}/first.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/produce-depot/pd-cover.png" alt="">
         </a>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <a href="second.html">
-          <img class="img-flex gutter pad-b-2" src="images/placeholder-1by1.svg" alt="">
+        <a href="{{site.baseurl}}/second.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/ice/ice-cover.png" alt="">
         </a>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <a href="third.html">
-          <img class="img-flex gutter pad-b-2" src="images/placeholder-1by1.svg" alt="">
+        <a href="{{site.baseurl}}/third.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/wap-cover.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <a href="{{site.baseurl}}/first.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/wap-cover.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <a href="{{site.baseurl}}/second.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/produce-depot/pd-cover.png" alt="">
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <a href="{{site.baseurl}}/third.html">
+          <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/ice/ice-cover.png" alt="">
         </a>
       </div>
     </div>
@@ -60,11 +37,11 @@
     <h3 class="gutter" id="about">ABOUT</h3>
     <div class="about grid pad-t-1-2">
       <div class="my-photo unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex gutter pad-b-2" src="images/me.jpg" alt="">
+        <img class="img-flex gutter pad-b-2" src="{{site.baseurl}}/images/me.jpg" alt="">
       </div>
       <div class="about-me gutter unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 pad-b">
         <p class="milli">I imagine a life for myself full of excitement. I expect to uproot and change my lifestyle every few years; move to a new country, pick up new hobbies, and constantly recreate myself.</p>
-        <p class="milli">That's why I'm a designer. I'm building a career for myself based on  freedom, flexibility, and fun. I want to life a big life and make a difference while I'm here. My goal is to find solutions to the problems that affect people most. The world is moving forward; I want to contribute. I want to help.</p>
+        <p class="milli">That's why I'm a designer. I'm building a career for myself based on  freedom, flexibility, and fun. I want to live a big life and make a difference while I'm here. My goal is to find solutions to the problems that affect people most. The world is moving forward; I want to contribute. I want to help.</p>
         <h6 class="push-0">CONTACT</h6>
         <p class="milli">estherfjohnson@gmail.com <br> 613 408 1448</p>
       </div>
@@ -75,30 +52,40 @@
 
     <div class="fun grid pad-t-1-2 pad-b-2 gutter">
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/ween.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/world.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/beans.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/sleep.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/care-pas.jpg" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-        <img class="img-flex island-1-4" src="images/placeholder-1by1.svg" alt="">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/excuse.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/skel.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/shelves.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/hween.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/hi.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/hold.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+        <img class="img-flex island-1-4" src="{{site.baseurl}}/images/for-fun/three.jpg" alt="">
       </div>
 
     </div>
-
-  </main>
-
-  <div class="footer gutter pad-t-1-2">
-    <p class="micro"><strong>© ESTHER JOHNSON 2018</strong><br>estherfjohnson@gmail.com<br> 613 408 1448</p>
-
-</body>
-</html>
