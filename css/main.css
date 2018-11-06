@@ -1,5 +1,6 @@
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: #8c8c8c;
 }
 
 .header,
@@ -15,7 +16,7 @@ html {
   color: #000;
 }
 
-li {
+.nav-link {
   display: block;
   padding: 0;
   text-align: right;
@@ -40,5 +41,11 @@ a {
 }
 
 .footer {
-  text-align: center;
+  text-align: right;
+  color: #000;
+}
+
+.interests {
+  text-align: left;
+  list-style-type: none;
 }
