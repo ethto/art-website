@@ -12,11 +12,7 @@ h6 {
   color: #000000;
 }
 
-.header,
-.about,
-.fun,
-.portfolio-pieces,
-.process {
+.header {
   border-bottom: 4px solid #000;
 }
 
@@ -52,6 +48,7 @@ a {
 .footer {
   text-align: right;
   color: #000;
+  border-top: 4px solid #000;
 }
 
 .interests {
@@ -66,4 +63,17 @@ a {
 .piece-link:hover {
   opacity: .7;
   transform: scale(1.01);
+}
+
+.insta {
+  text-align: right;
+}
+
+.icon {
+  transition: all .3s ease;
+}
+
+.icon:hover {
+  opacity: .5;
+  transform: scale(1.05);
 }
