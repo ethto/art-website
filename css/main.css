@@ -3,6 +3,15 @@ html {
   color: #8c8c8c;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
 .header,
 .about,
 .fun,
@@ -48,4 +57,13 @@ a {
 .interests {
   text-align: left;
   list-style-type: none;
+}
+
+.piece-link {
+  transition: all .3s ease;
+}
+
+.piece-link:hover {
+  opacity: .7;
+  transform: scale(1.01);
 }
