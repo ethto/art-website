@@ -85,3 +85,7 @@ a:hover {
 .icon:hover {
   opacity: .9;
 }
+
+.oops {
+  text-align: left;
+}
