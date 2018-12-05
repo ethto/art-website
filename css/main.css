@@ -65,9 +65,13 @@ a:hover {
   transition: all .3s ease;
 }
 
-.piece-link:hover {
-  opacity: .7;
+.piece-link:hover, .piece-link:focus {
+  opacity: .99;
   transform: scale(1.01);
+}
+
+.piece-link a {
+  display: block;
 }
 
 .insta {
