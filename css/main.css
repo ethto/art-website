@@ -63,11 +63,14 @@ a:hover {
 
 .piece-link {
   transition: all .3s ease;
+  opacity: 1;
+  transform: scale(1.01);
+  transform-origin: center center;
 }
 
 .piece-link:hover, .piece-link:focus {
   opacity: .99;
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .piece-link a {
