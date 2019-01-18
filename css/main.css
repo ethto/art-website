@@ -92,3 +92,21 @@ a:hover {
 .oops {
   text-align: left;
 }
+
+.banner-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-desktop {
+    display: block;
+  }
+
+  .banner-mobile {
+    display: none;
+  }
+
+
+
+}
