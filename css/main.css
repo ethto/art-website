@@ -97,6 +97,10 @@ a:hover {
   display: none;
 }
 
+.steps {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner-desktop {
@@ -106,7 +110,13 @@ a:hover {
   .banner-mobile {
     display: none;
   }
+}
 
 
+@media only screen and (min-width: 60em) {
+
+  .steps {
+    display: block;
+  }
 
 }
