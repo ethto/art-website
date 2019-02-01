@@ -97,6 +97,23 @@ a:hover {
   display: none;
 }
 
+.next {
+  display: block;
+  text-align: right;
+}
+
+.previous {
+  display: block;
+  text-align: left;
+
+}
+
+.link-card {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -107,10 +124,15 @@ a:hover {
   .banner-mobile {
     display: none;
   }
+
 }
 
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
+
+  .link-card {
+    padding: 0;
+  }
 
 
 }
